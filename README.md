@@ -177,5 +177,12 @@ Edit
 "fuelCostTotal": "150.00"
 }
 
+8. Repository & Live Links
+   GitHub Repository: https://github.com/VirajDagade/green-cart-logistics
+
+   Frontend Live URL: https://green-cart-logistics-seven.vercel.app/
+
+   Backend API URL: https://green-cart-logistics.onrender.com/
+
 Developed by
 Viraj Dagade
