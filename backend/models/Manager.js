@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 
-const driverSchema = new mongoose.Schema({
+const managerSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  shift_hours: { type: Number, required: true },
-  past_week_hours: { type: [Number], required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
 });
 
-export default mongoose.model("Driver", driverSchema);
+export default mongoose.model("Manager", managerSchema);
